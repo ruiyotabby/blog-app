@@ -1,0 +1,123 @@
+#root {
+	/* max-width: 1280px; */
+	/* margin: 0 auto; */
+	padding: 0 10px;
+	/* text-align: center; */
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sign-up {
+	border-radius: 8px;
+	padding: 10px 16px;
+	background-color: #1873fb;
+	color: white;
+	margin-right: 8px;
+}
+
+.sign-up:hover {
+	border-radius: 8px;
+	padding: 10px 16px;
+	background-color: #0058dc;
+	border-color: #0058dc;
+	color: white;
+}
+
+a {
+	font-weight: 500;
+	color: gray;
+	text-decoration: inherit;
+	padding: 16px;
+}
+
+a:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.icon {
+	color: gray;
+}
+
+.icon:hover {
+	color: rgb(92, 92, 92);
+	cursor: pointer;
+}
+
+.pop-up {
+	background: white;
+	padding: 10px;
+	box-shadow: 1px 1px 10px 1px rgb(207, 207, 207);
+	position: absolute;
+	right: 10px;
+	border-radius: 4px;
+	z-index: 99;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* min-height: 200px; */
+	/* max-width: 200px; */
+}
+
+.pop-up button {
+	display: block;
+	width: 90%;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 49px;
+}
+
+.pop-up button:hover {
+	padding: 5px;
+}
+
+.pop-up .sign-in {
+	background: none;
+	color: black;
+	border-color: black;
+}
+
+.hide {
+	display: none;
+}
+
+.logo {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}
